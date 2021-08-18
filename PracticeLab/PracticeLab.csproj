@@ -76,6 +76,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="LamdaLinQ.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,18 @@
     </Compile>
     <Compile Include="LifeGame.Designer.cs">
       <DependentUpon>LifeGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Linq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linq.Designer.cs">
+      <DependentUpon>Linq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parallel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parallel.Designer.cs">
+      <DependentUpon>parallel.cs</DependentUpon>
     </Compile>
     <Compile Include="PracticeOfXml.cs">
       <SubType>Form</SubType>
@@ -102,11 +120,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LamdaLinQ.resx">
       <DependentUpon>LamdaLinQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LifeGame.resx">
       <DependentUpon>LifeGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq.resx">
+      <DependentUpon>Linq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parallel.resx">
+      <DependentUpon>parallel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PracticeOfXml.resx">
       <DependentUpon>PracticeOfXml.cs</DependentUpon>

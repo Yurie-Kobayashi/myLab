@@ -17,9 +17,17 @@ namespace PracticeLab
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public string _answer = "";
+
+        public Form1(string triger = "")
         {
             InitializeComponent();
+
+            var arg = Environment.GetCommandLineArgs();
+            if (arg.Count()>1 && !string.IsNullOrEmpty(arg[1]))
+            {
+                MessageBox.Show(arg[1]);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -161,20 +169,6 @@ namespace PracticeLab
                 GC.Collect();
 
             };
-
-
-
-            //Excel.Application xel;
-            //xel = new Excel.Application();
-            //Excel.Workbook xelBook;
-            //xel.Visible = true;
-
-            //xelBook = (Excel.Workbook)(xel.Workbooks.Open
-            //(
-            //ExcelPass, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing
-
-            //));
-
 
         }
 
@@ -492,6 +486,24 @@ namespace PracticeLab
         private void button11_Click(object sender, EventArgs e)
         {
             var jump = new LifeGame();
+            jump.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            var jump = new parallel();
+            jump.ShowDialog();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            var jump = new Linq();
+            jump.ShowDialog();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            var jump = new Form2();
             jump.ShowDialog();
         }
     }

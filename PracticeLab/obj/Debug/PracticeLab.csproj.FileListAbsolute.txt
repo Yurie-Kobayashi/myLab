@@ -22,3 +22,6 @@ C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\ob
 C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.csproj.CopyComplete
 C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.csproj.CoreCompileInputs.cache
 C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.LifeGame.resources
+C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.parallel.resources
+C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.Linq.resources
+C:\Users\Yurie\Desktop\プログラミングアプリ\PracticeLab\PracticeLab\obj\Debug\PracticeLab.Form2.resources
